@@ -1,0 +1,41 @@
+{
+  "type": "service",
+  "name": "redis",
+  "description": "Redis database",
+
+  "components": [
+    {
+      "name": "redis",
+      "ports": [
+        {
+          "name": "http",
+          "port": 6379,
+          "protocol": "HTTP",
+          "external_access": {
+            "public": true
+          }
+        }
+      ],
+      "build": {
+        "git_repository": {
+          "url": "https://github.com/mlab-lattice/example-petflix-www",
+          "commit": "398d7c66ad4c5c012a7d7b4ba3008ed6d86075a3"
+        },
+        "language": "redis",
+        "command": ""
+      },
+      "exec": {
+        "command": [
+          ""
+        ],
+        "environment": {
+          "PETFLIX_API_URI": "http://api.petflix.local"
+        }
+      }
+    }
+  ],
+  "resources": {
+    "num_instances": 1,
+    "instance_type": "t2.small"
+  }
+}

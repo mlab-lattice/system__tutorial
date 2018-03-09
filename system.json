@@ -1,0 +1,8 @@
+{
+  "type": "system",
+  "name": "tutorial",
+
+  "subsystems": [
+    { "$include": { "url": "redis.json" } }
+  ]
+}
