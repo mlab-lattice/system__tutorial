@@ -19,7 +19,7 @@
       "build": {
         "git_repository": {
           "url": "https://github.com/mlab-lattice/example-petflix-www",
-          "commit": "398d7c66ad4c5c012a7d7b4ba3008ed6d86075a3"
+          "commit": "8ec9914f4a2fd71107f9a8e75b2f4605c69324b0"
         },
         "language": "redis",
         "command": ""
