@@ -22,11 +22,11 @@
           "commit": "8ec9914f4a2fd71107f9a8e75b2f4605c69324b0"
         },
         "language": "redis",
-        "command": ""
+        "command": "pwd"
       },
       "exec": {
         "command": [
-          ""
+          "pwd"
         ],
         "environment": {
           "PETFLIX_API_URI": "http://api.petflix.local"
