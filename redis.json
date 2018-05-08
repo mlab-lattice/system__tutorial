@@ -21,7 +21,8 @@
           "url": "https://github.com/mlab-lattice/example-petflix-www.git",
           "commit": "8ec9914f4a2fd71107f9a8e75b2f4605c69324b0"
         },
-        "language": "redis"
+        "language": "redis",
+        "command": "pwd"
       },
       "exec": {
         "command": [
