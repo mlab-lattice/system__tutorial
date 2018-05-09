@@ -8,9 +8,9 @@
       "name": "redis",
       "ports": [
         {
-          "name": "http",
+          "name": "redis",
           "port": 6379,
-          "protocol": "HTTP",
+          "protocol": "TCP",
           "external_access": {
             "public": true
           }
